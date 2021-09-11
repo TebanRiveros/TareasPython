@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Tarea Frontend</title>
+</head>
+<body>
+    <div id="Container">
+        <header>
+            <h1>MICHAEL FARADAY</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Faraday-Millikan-Gale-1913.jpg/190px-Faraday-Millikan-Gale-1913.jpg">
+        </header>
+ 
+        <br>
+        <div id="cuerpo">
+            <p>Científico británico, uno de los físicos más destacados del siglo <b>XIX</b>. Michael Faraday nació en el seno de
+                una
+                familia humilde y recibió una educación básica. A temprana edad tuvo que empezar a trabajar, primero como
+                repartidor de periódicos, y a los catorce años en una librería, donde tuvo la oportunidad de leer algunos
+                artículos <em>científicos</em> que lo impulsaron a realizar sus primeros experimentos.</p>
+            <p>Faltaba un elemento más para que Faraday comience sus primeros pasos en la ciencia: A su laboratorio improvisado, y a sus estudios autodidactas, se le sumó el contacto con científicos, en la forma de asistencia a sus conferencias. En 1810 escuchó su primera conferencia científica en el centro de Londres, dictadas por una modesta comunidad de científicos llamada City Philosophical Society. Asistiría a sus conferencias todos los lunes a partir de entonces.</p>
+        
+            <h2>Principales aportes a la ciencia</h2>
+            <ul>
+                <li>Inventa un dispositivo que rota mediante electromagnetismo, considerado el primer motor eléctrico</li>
+                <li>Descubre la inducción electromagnética, conocida ahora como ley de Faraday</li>
+                <li>Describe por primera vez el concepto de líneas de fuerza, formalizado matemáticamente por Maxwell</li>
+                <li>Descubrió el efecto conocido ahora como jaula de Faraday</li>
+            </ul>
+        </div>
+        <br>
+        <div id="tabla">
+            <h2>Información personal</h2>
+            <table border="1">
+                <tr>
+                    <th>Nacimiento</th>
+                    <th>22 de septiembre de 1791</th>
+                </tr>
+                <tr>
+                    <th>Fallecimiento</th>
+                    <th>25 de agosto de 1867 (75 años)</th>
+                </tr>
+                <tr>
+                    <th>Nacionalidad</th>
+                    <th>británica</th>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+        <nav class="botones">
+            <h3>Aprende mas</h3>
+            <input type="button" onclick="javascript:fotos();" value="Mas fotos"/>
+            <input type="button" onclick="javascript:ley();" value="Aprende sobre la ley de Faraday"/>
+            <input type="button" onclick="javascript:charlas();" value="Conoce las charlas navideñas de divulgación"/>
+        </nav>
+
+    </div>
+
+    <script>
+        function fotos(){
+            alert("Mira mas fotos de Faraday")
+            location.href="https://www.alamy.es/imagenes/michael-faraday-1791-1867.html"
+        }
+
+        function ley(){
+            alert("Estudia la ley de induccion de Faraday")
+            location.href="https://catedra.ing.unlp.edu.ar/electrotecnia/cys/DI/electromagnetismo.pdf"
+        }
+
+        function charlas(){
+            alert("Conoce las charlas de navidad de la RIGB")
+            location.href="https://www.rigb.org/christmas-lectures"
+        }
+
+    </script>
+</body>
+</html>
