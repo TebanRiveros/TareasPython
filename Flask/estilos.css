@@ -1,0 +1,32 @@
+* {
+  margin: 10px;
+}
+
+h2,
+h3 {
+  color: aliceblue;
+}
+
+body {
+  background-image: url("https://www.revistaenergia.com/wp-content/uploads/2019/07/electricidad-luz-subida-1000x599.jpg");
+  backdrop-filter: blur(6px);
+  font-family: Helvetica;
+}
+
+header {
+  background-color: #ff0000;
+  text-align: center;
+}
+
+.botones {
+  width: 100%;
+  background: chartreuse;
+}
+
+#cuerpo {
+  background-color: chocolate;
+}
+
+#tabla {
+  background-color: cyan;
+}
